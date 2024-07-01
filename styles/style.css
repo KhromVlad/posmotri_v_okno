@@ -37,13 +37,18 @@ ol {
   list-style: none;
 }
 
+.page {
+  display: grid;
+  place-items: center;
+}
+
 .content {
   display: flex;
   justify-content: center;
   align-items: flex-start; 
   gap: 30px;
   max-width: 1140px;
-  margin: 133px auto;
+  margin: 133px 30px;
 }
 
 .result {
