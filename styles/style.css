@@ -146,6 +146,7 @@ ol {
 .content__video-card-description-container {
   width: 100%;
   max-width: 394px;
+  padding: 5px;
 }
 
 .content__video-card-description {
@@ -213,10 +214,6 @@ ol {
   white-space: nowrap;
 }
 
-.content__video-card-description-container {
-  padding: 5px;
-}
-
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -259,11 +256,6 @@ ol {
 .button:focus-visible {
   outline: 1px solid #FFFFFF;
   outline-offset: 1px;
-}
-
-.search-form__submit-button:has(:focus-visible) {
-  outline: 1px solid #FFFFFF;
-  outline-offset: 2px;
 }
 
 .more-button {
